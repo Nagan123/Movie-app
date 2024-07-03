@@ -1,0 +1,28 @@
+/* Add these styles to your existing login.css */
+
+.inputBx {
+  position: relative;
+}
+
+.inputBx input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Adjust padding to make space for the icon */
+  box-sizing: border-box;
+}
+
+.inputBx .fas {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2; /* Ensure it appears above the input */
+}
+
+.inputBx .password .fas.eye-icon {
+  right: 30px; /* Adjust position to the left of the key icon */
+}
+
+.inputBx .password .fas.key-icon {
+  right: 10px; /* Adjust position to the right of the eye icon */
+}
